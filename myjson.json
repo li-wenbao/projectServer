@@ -1,60 +1,649 @@
 {
-  "users": [
-    {
-      "name": "AnHerry",
-      "phone": "333-444-555",
-      "id": 2,
-      "age": 30,
-      "companyId": 2
-    },
-    {
-      "name": "GHerry",
-      "phone": "333-444-555",
-      "id": 3,
-      "age": 36,
-      "companyId": 3
-    },
-    {
-      "name": "EnHerry",
-      "phone": "333-444-555",
-      "email": "gs",
-      "education": "ff",
-      "graduationschool": "fdjfk",
-      "profession": "hgkg",
-      "profile": "syehdhd",
-      "id": 4
-    },
-    {
-      "name": "韩梅fd",
-      "phone": "1214325325346",
-      "email": "645756568@qq.com",
-      "education": "本科",
-      "graduationschool": "云南艺术学院",
-      "profession": "服装设计",
-      "profile": "开朗 活泼好动",
-      "id": 5
-    }
-  ],
-  "companies": [
-    {
-      "id": 1,
-      "name": "Apple",
-      "description": "Apple is good"
-    },
-    {
-      "id": 2,
-      "name": "huawei",
-      "description": "huawei is good"
-    },
-    {
-      "id": 3,
-      "name": "viov",
-      "description": "viov is good"
-    },
-    {
-      "id": 4,
-      "name": "fushikang",
-      "description": "fushikang is good"
-    }
-  ]
+	"users": [{
+			"name": "AnHerry",
+			"phone": "333-444-555",
+			"id": 2,
+			"age": 30,
+			"companyid": 2
+		},
+		{
+			"name": "GHerry",
+			"phone": "333-444-555",
+			"id": 3,
+			"age": 36,
+			"companyid": 3
+		},
+		{
+			"name": "EnHerry",
+			"phone": "333-444-555",
+			"email": "gs",
+			"education": "ff",
+			"graduationschool": "fdjfk",
+			"profession": "hgkg",
+			"profile": "syehdhd",
+			"id": 4
+		},
+		{
+			"name": "韩梅fd",
+			"phone": "1214325325346",
+			"email": "645756568@qq.com",
+			"education": "本科",
+			"graduationschool": "云南艺术学院",
+			"profession": "服装设计",
+			"profile": "开朗 活泼好动",
+			"id": 5
+		}
+	],
+	"companies": [{
+			"id": 1,
+			"name": "Apple",
+			"description": "Apple is good"
+		},
+		{
+			"id": 2,
+			"name": "huawei",
+			"description": "huawei is good"
+		},
+		{
+			"id": 3,
+			"name": "viov",
+			"description": "viov is good"
+		},
+		{
+			"id": 4,
+			"name": "fushikang",
+			"description": "fushikang is good"
+		}
+	],
+	"storelist": [{
+			"id": 1,
+			"name": "豚骨拉面(怡园风味)",
+			"imgurl": "/static/ddd.jpg",
+			"grade": 4.9,
+			"sales": 258,
+			"baseprice": 15,
+			"distribution": 3,
+			"averageConsume": 21
+		},
+		{
+			"id": 2,
+			"name": "美味炸鸡",
+			"imgurl": "/static/eee.jpg",
+			"grade": 4.5,
+			"sales": 356,
+			"baseprice": 20,
+			"distribution": 2,
+			"averageConsume": 25
+		},
+		{
+			"id": 3,
+			"name": "羊肉米线",
+			"imgurl": "/static/fff.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 3,
+			"name": "清真昭通牛肉王小肉串(月牙塘店)",
+			"imgurl": "/static/ddd.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 53,
+			"name": "四禾小吃坊 (花甲米线)",
+			"imgurl": "/static/ldd.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 3,
+			"name": "叫了只炸鸡 (北市区店)",
+			"imgurl": "/static/jlzj.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 3,
+			"name": "乐多多炸鸡汉堡(农大店)",
+			"imgurl": "/static/ldd.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 73,
+			"name": "鸭旭北京烤鸭(百富琪店)",
+			"imgurl": "/static/ky.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 1,
+			"name": "豚骨拉面(怡园风味)",
+			"imgurl": "/static/ddd.jpg",
+			"grade": 4.9,
+			"sales": 258,
+			"baseprice": 15,
+			"distribution": 3,
+			"averageConsume": 21
+		},
+		{
+			"id": 2,
+			"name": "美味炸鸡",
+			"imgurl": "/static/eee.jpg",
+			"grade": 4.5,
+			"sales": 356,
+			"baseprice": 20,
+			"distribution": 2,
+			"averageConsume": 25
+		},
+		{
+			"id": 3,
+			"name": "羊肉米线",
+			"imgurl": "/static/fff.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		},
+		{
+			"id": 3,
+			"name": "清真昭通牛肉王小肉串(月牙塘店)",
+			"imgurl": "/static/ddd.jpg",
+			"grade": 4.6,
+			"sales": 186,
+			"baseprice": 15,
+			"distribution": 2,
+			"averageConsume": 18
+		}
+	],
+	"cuiconlist": [{
+			"url": "/static/list/cate.png",
+			"name": "校园美食"
+		},
+		{
+			"url": "/static/list/lunch.png",
+			"name": "美味午餐"
+		},
+		{
+			"url": "/static/list/drinks.png",
+			"name": "甜点饮品"
+		},
+		{
+			"url": "/static/list/fruit.png",
+			"name": "新鲜水果"
+		},
+		{
+			"url": "/static/list/supermarket.png",
+			"name": "校园超市"
+		},
+		{
+			"url": "/static/list/run.png",
+			"name": "校内跑腿"
+		},
+		{
+			"url": "/static/list/snack.png",
+			"name": "快食简餐"
+		},
+		{
+			"url": "/static/list/breakfast.png",
+			"name": "美味早餐"
+		}
+	],
+	"swiperList": [{
+			"id": 0,
+			"type": "image",
+			"url": "/static/aaa.jpg"
+		},
+		{
+			"id": 1,
+			"type": "image",
+			"url": "/static/bbb.jpg"
+		},
+		{
+			"id": 2,
+			"type": "image",
+			"url": "/static/ccc.jpg"
+		}
+	],
+	"catelist": [{
+			"id": 1,
+			"name": "豚骨拉面(怡园风味)",
+			"imgurl": "/static/aaa.jpg",
+			"rate": 98,
+			"grade": 4.9,
+			"sales": 258,
+			"baseprice": 15,
+			"distribution": 3,
+			"averageConsume": 21
+		},
+		{
+			"id": 2,
+			"name": "美味炸鸡",
+			"imgurl": "/static/bbb.jpg",
+			"rate": 98,
+			"grade": 4.9,
+			"sales": 258,
+			"baseprice": 15,
+			"distribution": 3,
+			"averageConsume": 21
+		},
+		{
+			"id": 3,
+			"name": "羊肉米线",
+			"imgurl": "/static/ccc.jpg",
+			"rate": 98,
+			"grade": 4.9,
+			"sales": 258,
+			"baseprice": 15,
+			"distribution": 3,
+			"averageConsume": 21
+		}
+	],
+	"discountlist": [{
+			"imgurl": "/static/aaa.jpg",
+			"name": "豚骨拉面(怡园风味)",
+			"price": 20,
+			"bargain": 15,
+			"id": 1
+		},
+		{
+			"imgurl": "/static/zyy5.jpg",
+			"name": "黄金炸洋芋",
+			"price": 30,
+			"bargain": 24,
+			"id": 2
+		},
+		{
+			"imgurl": "/static/zyy2.jpg",
+			"name": "炸洋芋拼炸石屏豆腐",
+			"price": 15,
+			"bargain": 12,
+			"id": 3
+		}
+	],
+	"menu": [{
+			"name": "热销",
+			"icon": "",
+			"list": [{
+					"imgurl": "/static/ddd.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": false,
+					"discount": 3.8
+				},
+				{
+					"imgurl": "/static/ddd.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": false,
+					"discount": 5.8
+				}
+			]
+		},
+		{
+			"name": "折扣",
+			"icon": "",
+			"list": [{
+					"imgurl": "/static/98k.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制的豚骨汤",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": true,
+					"discount": 3.8
+				},
+				{
+					"imgurl": "/static/ddd.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": true,
+					"discount": 5.8
+				}
+			]
+		},
+		{
+			"name": "素菜专区",
+			"icon": "",
+			"list": [{
+					"imgurl": "/static/ccc.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制的豚骨汤",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": false,
+					"discount": 3.8
+				},
+				{
+					"imgurl": "/static/hg.jpg",
+					"name": "豚骨拉面",
+					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
+					"sales": 79,
+					"rate": 98,
+					"price": 36,
+					"bargain": 18,
+					"isActive": false,
+					"discount": 5.8
+				}
+			]
+		},
+		{
+			"name": "荤菜专区",
+			"icon": "",
+			"list": [{
+				"imgurl": "/static/ddd.jpg",
+				"name": "豚骨拉面",
+				"introduction": "精心熬制的豚骨汤",
+				"sales": 79,
+				"rate": 98,
+				"price": 36,
+				"bargain": 18,
+				"isActive": false,
+				"discount": 3.8
+			}]
+		},
+		{
+			"name": "小菜专区",
+			"icon": "",
+			"list": [{
+				"imgurl": "/static/ddd.jpg",
+				"name": "豚骨拉面",
+				"introduction": "精心熬制的豚骨汤",
+				"sales": 79,
+				"rate": 98,
+				"price": 36,
+				"bargain": 18,
+				"isActive": false,
+				"discount": 3.8
+			}]
+		},
+		{
+			"name": "饮品专区",
+			"icon": "",
+			"list": [{
+				"imgurl": "/static/ddd.jpg",
+				"name": "豚骨拉面",
+				"introduction": "精心熬制的豚骨汤",
+				"sales": 79,
+				"rate": 98,
+				"price": 36,
+				"bargain": 18,
+				"isActive": false,
+				"discount": 3.8
+			}]
+		}
+	],
+	"tellist": [{
+			"name": "全部",
+			"count": 1888
+		},
+		{
+			"name": "好评",
+			"count": 788
+		},
+		{
+			"name": "差评",
+			"count": 18
+		},
+		{
+			"name": "包装好",
+			"count": 207
+		},
+		{
+			"name": "分量足",
+			"count": 188
+		},
+		{
+			"name": "价格实惠",
+			"count": 108
+		}
+	],
+	"discusslist": [{
+			"name": "匿名用户",
+			"imgurl": "/static/face.jpg",
+			"grade": 4.8,
+			"createTime": "2020.01.16",
+			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
+			"imglist": [],
+			"foodlist": ["鸡米花", "鸡肉卷"],
+			"reply": "今天能收到您的赞扬，以后我要先感谢领导给予的栽培！感谢公司给予我为你服务的机会！还要感谢祖国对我的培养！当然最最需要感谢的，还是您对我的认同！"
+		},
+		{
+			"name": "匿名用户",
+			"imgurl": "/static/face.jpg",
+			"grade": 4.8,
+			"createTime": "2020.01.16",
+			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
+			"imglist": [
+				"/static/aaa.jpg",
+				"/static/ddd.jpg",
+				"/static/eee.jpg",
+				"/static/fff.jpg"
+			],
+			"foodlist": ["鸡米花", "鸡肉卷"],
+			"reply": ""
+		},
+		{
+			"name": "匿名用户",
+			"imgurl": "/static/face.jpg",
+			"grade": 4.8,
+			"createTime": "2020.01.16",
+			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
+			"imglist": [],
+			"foodlist": ["鸡米花", "鸡肉卷"],
+			"reply": "今天能收到您的赞扬，以后我要先感谢领导给予的栽培！感谢公司给予我为你服务的机会！还要感谢祖国对我的培养！当然最最需要感谢的，还是您对我的认同！"
+		}
+	],
+	"orderlist": [{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "/static/ddd.jpg",
+			"name": "清真昭通牛肉王小肉串(月牙塘店)",
+			"status": "派送中",
+			"amount": 2,
+			"discount": 0.12,
+			"sum": 29.88,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "昭通炸洋芋",
+					"unitprice": 20.0,
+					"count": 1
+				},
+				{
+					"name": "炸洋芋拼炸石屏豆腐",
+					"unitprice": 10.0,
+					"count": 1
+				}
+			]
+		},
+		{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "/static/ldd.jpg",
+			"name": "四禾小吃坊 (花甲米线)",
+			"status": "已完成",
+			"amount": 4,
+			"discount": 5.0,
+			"sum": 22,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "黄金炸洋芋",
+					"unitprice": 5,
+					"count": 2
+				},
+				{
+					"name": "蒜泥狠炸洋芋",
+					"unitprice": 12,
+					"count": 1
+				},
+				{
+					"name": "秘制炸洋芋",
+					"unitprice": 5,
+					"count": 1
+				}
+			]
+		},
+		{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "../../static/shop_logo.png",
+			"name": "蜜秘鸡地",
+			"status": "已取消",
+			"amount": 4,
+			"discount": 5.0,
+			"sum": 22,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "薯条",
+					"unitprice": 5,
+					"count": 2
+				},
+				{
+					"name": "豚骨汤",
+					"unitprice": 12,
+					"count": 1
+				},
+				{
+					"name": "鸡腿",
+					"unitprice": 5,
+					"count": 1
+				}
+			]
+		},
+		{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "../../static/shop_logo.png",
+			"name": "蜜秘鸡地",
+			"status": "已完成",
+			"amount": 4,
+			"discount": 5.0,
+			"sum": 22,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "薯条",
+					"unitprice": 5,
+					"count": 2
+				},
+				{
+					"name": "豚骨汤",
+					"unitprice": 12,
+					"count": 1
+				},
+				{
+					"name": "鸡腿",
+					"unitprice": 5,
+					"count": 1
+				}
+			]
+		},
+		{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "../../static/shop_logo.png",
+			"name": "蜜秘鸡地",
+			"status": "已完成",
+			"amount": 4,
+			"discount": 5.0,
+			"sum": 22,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "薯条",
+					"unitprice": 5,
+					"count": 2
+				},
+				{
+					"name": "豚骨汤",
+					"unitprice": 12,
+					"count": 1
+				},
+				{
+					"name": "鸡腿",
+					"unitprice": 5,
+					"count": 1
+				}
+			]
+		},
+		{
+			"id": 1,
+			"orderid": 100000,
+			"imgurl": "../../static/shop_logo.png",
+			"name": "蜜秘鸡地",
+			"status": "已完成",
+			"amount": 4,
+			"discount": 5.0,
+			"sum": 22,
+			"createTime": "2019-12-11",
+			"list": [{
+					"name": "薯条",
+					"unitprice": 5,
+					"count": 2
+				},
+				{
+					"name": "豚骨汤",
+					"unitprice": 12,
+					"count": 1
+				},
+				{
+					"name": "鸡腿",
+					"unitprice": 5,
+					"count": 1
+				}
+			]
+		}
+	],
+	"myLocation": [{
+			"address": "云南农业大学13栋",
+			"name": "某同学",
+			"tel": "18211112222",
+			"tel": "学校"
+		},
+		{
+			"address": "云南农业大学综合楼 507",
+			"name": "某同学",
+			"tel": "18211112222",
+			"tel": ""
+		},
+		{
+			"address": "昆明理工大学计算机与科学技术学院",
+			"name": "某同学",
+			"tel": "18211112222",
+			"tel": "学校"
+		}
+	]
 }
