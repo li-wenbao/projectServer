@@ -58,7 +58,7 @@
 	"storelist": [{
 			"id": 1,
 			"name": "豚骨拉面(怡园风味)",
-			"imgurl": "/static/ddd.jpg",
+			"url": "/static/ddd.jpg",
 			"grade": 4.9,
 			"sales": 258,
 			"baseprice": 15,
@@ -68,7 +68,7 @@
 		{
 			"id": 2,
 			"name": "美味炸鸡",
-			"imgurl": "/static/eee.jpg",
+			"url": "/static/eee.jpg",
 			"grade": 4.5,
 			"sales": 356,
 			"baseprice": 20,
@@ -78,7 +78,7 @@
 		{
 			"id": 3,
 			"name": "羊肉米线",
-			"imgurl": "/static/fff.jpg",
+			"url": "../../static/fff.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -88,7 +88,7 @@
 		{
 			"id": 3,
 			"name": "清真昭通牛肉王小肉串(月牙塘店)",
-			"imgurl": "/static/ddd.jpg",
+			"url": "../../static/ddd.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -98,7 +98,7 @@
 		{
 			"id": 53,
 			"name": "四禾小吃坊 (花甲米线)",
-			"imgurl": "/static/ldd.jpg",
+			"url": "../../static/ldd.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -108,7 +108,7 @@
 		{
 			"id": 3,
 			"name": "叫了只炸鸡 (北市区店)",
-			"imgurl": "/static/jlzj.jpg",
+			"url": "../../static/jlzj.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -118,7 +118,7 @@
 		{
 			"id": 3,
 			"name": "乐多多炸鸡汉堡(农大店)",
-			"imgurl": "/static/ldd.jpg",
+			"url": "../../static/ldd.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -128,7 +128,7 @@
 		{
 			"id": 73,
 			"name": "鸭旭北京烤鸭(百富琪店)",
-			"imgurl": "/static/ky.jpg",
+			"url": "../../static/ky.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -138,7 +138,7 @@
 		{
 			"id": 1,
 			"name": "豚骨拉面(怡园风味)",
-			"imgurl": "/static/ddd.jpg",
+			"url": "../../static/ddd.jpg",
 			"grade": 4.9,
 			"sales": 258,
 			"baseprice": 15,
@@ -148,7 +148,7 @@
 		{
 			"id": 2,
 			"name": "美味炸鸡",
-			"imgurl": "/static/eee.jpg",
+			"url": "../../static/eee.jpg",
 			"grade": 4.5,
 			"sales": 356,
 			"baseprice": 20,
@@ -158,7 +158,7 @@
 		{
 			"id": 3,
 			"name": "羊肉米线",
-			"imgurl": "/static/fff.jpg",
+			"url": "../../static/fff.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -168,7 +168,7 @@
 		{
 			"id": 3,
 			"name": "清真昭通牛肉王小肉串(月牙塘店)",
-			"imgurl": "/static/ddd.jpg",
+			"url": "../../static/ddd.jpg",
 			"grade": 4.6,
 			"sales": 186,
 			"baseprice": 15,
@@ -228,7 +228,7 @@
 	"catelist": [{
 			"id": 1,
 			"name": "豚骨拉面(怡园风味)",
-			"imgurl": "/static/aaa.jpg",
+			"url": "/static/aaa.jpg",
 			"rate": 98,
 			"grade": 4.9,
 			"sales": 258,
@@ -239,7 +239,7 @@
 		{
 			"id": 2,
 			"name": "美味炸鸡",
-			"imgurl": "/static/bbb.jpg",
+			"url": "/static/bbb.jpg",
 			"rate": 98,
 			"grade": 4.9,
 			"sales": 258,
@@ -250,7 +250,7 @@
 		{
 			"id": 3,
 			"name": "羊肉米线",
-			"imgurl": "/static/ccc.jpg",
+			"url": "/static/ccc.jpg",
 			"rate": 98,
 			"grade": 4.9,
 			"sales": 258,
@@ -260,21 +260,21 @@
 		}
 	],
 	"discountlist": [{
-			"imgurl": "/static/aaa.jpg",
+			"url": "/static/aaa.jpg",
 			"name": "豚骨拉面(怡园风味)",
 			"price": 20,
 			"bargain": 15,
 			"id": 1
 		},
 		{
-			"imgurl": "/static/zyy5.jpg",
+			"url": "/static/zyy5.jpg",
 			"name": "黄金炸洋芋",
 			"price": 30,
 			"bargain": 24,
 			"id": 2
 		},
 		{
-			"imgurl": "/static/zyy2.jpg",
+			"url": "/static/zyy2.jpg",
 			"name": "炸洋芋拼炸石屏豆腐",
 			"price": 15,
 			"bargain": 12,
@@ -285,7 +285,7 @@
 			"name": "热销",
 			"icon": "",
 			"list": [{
-					"imgurl": "/static/ddd.jpg",
+					"url": "/static/ddd.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
 					"sales": 79,
@@ -296,7 +296,7 @@
 					"discount": 3.8
 				},
 				{
-					"imgurl": "/static/ddd.jpg",
+					"url": "/static/ddd.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制",
 					"sales": 79,
@@ -312,7 +312,7 @@
 			"name": "折扣",
 			"icon": "",
 			"list": [{
-					"imgurl": "/static/98k.jpg",
+					"url": "/static/98k.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制的豚骨汤",
 					"sales": 79,
@@ -323,7 +323,7 @@
 					"discount": 3.8
 				},
 				{
-					"imgurl": "/static/ddd.jpg",
+					"url": "/static/ddd.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
 					"sales": 79,
@@ -339,7 +339,7 @@
 			"name": "素菜专区",
 			"icon": "",
 			"list": [{
-					"imgurl": "/static/ccc.jpg",
+					"url": "/static/ccc.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制的豚骨汤",
 					"sales": 79,
@@ -350,7 +350,7 @@
 					"discount": 3.8
 				},
 				{
-					"imgurl": "/static/hg.jpg",
+					"url": "/static/hg.jpg",
 					"name": "豚骨拉面",
 					"introduction": "精心熬制的豚骨汤精心熬制的豚骨汤精心熬制的豚骨汤",
 					"sales": 79,
@@ -366,7 +366,7 @@
 			"name": "荤菜专区",
 			"icon": "",
 			"list": [{
-				"imgurl": "/static/ddd.jpg",
+				"url": "/static/ddd.jpg",
 				"name": "豚骨拉面",
 				"introduction": "精心熬制的豚骨汤",
 				"sales": 79,
@@ -381,7 +381,7 @@
 			"name": "小菜专区",
 			"icon": "",
 			"list": [{
-				"imgurl": "/static/ddd.jpg",
+				"url": "/static/ddd.jpg",
 				"name": "豚骨拉面",
 				"introduction": "精心熬制的豚骨汤",
 				"sales": 79,
@@ -396,7 +396,7 @@
 			"name": "饮品专区",
 			"icon": "",
 			"list": [{
-				"imgurl": "/static/ddd.jpg",
+				"url": "/static/ddd.jpg",
 				"name": "豚骨拉面",
 				"introduction": "精心熬制的豚骨汤",
 				"sales": 79,
@@ -435,7 +435,7 @@
 	],
 	"discusslist": [{
 			"name": "匿名用户",
-			"imgurl": "/static/face.jpg",
+			"url": "/static/face.jpg",
 			"grade": 4.8,
 			"createTime": "2020.01.16",
 			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
@@ -445,7 +445,7 @@
 		},
 		{
 			"name": "匿名用户",
-			"imgurl": "/static/face.jpg",
+			"url": "/static/face.jpg",
 			"grade": 4.8,
 			"createTime": "2020.01.16",
 			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
@@ -460,7 +460,7 @@
 		},
 		{
 			"name": "匿名用户",
-			"imgurl": "/static/face.jpg",
+			"url": "/static/face.jpg",
 			"grade": 4.8,
 			"createTime": "2020.01.16",
 			"content": "非常好，经常买，鸡肉卷鸡米花很好吃，卖家还送优惠券，还会再来，推荐推荐，棒棒哒！",
@@ -472,7 +472,7 @@
 	"orderlist": [{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "/static/ddd.jpg",
+			"url": "/static/ddd.jpg",
 			"name": "清真昭通牛肉王小肉串(月牙塘店)",
 			"status": "派送中",
 			"amount": 2,
@@ -494,7 +494,7 @@
 		{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "/static/ldd.jpg",
+			"url": "/static/ldd.jpg",
 			"name": "四禾小吃坊 (花甲米线)",
 			"status": "已完成",
 			"amount": 4,
@@ -521,7 +521,7 @@
 		{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "../../static/shop_logo.png",
+			"url": "/static/shop_logo.png",
 			"name": "蜜秘鸡地",
 			"status": "已取消",
 			"amount": 4,
@@ -548,7 +548,7 @@
 		{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "../../static/shop_logo.png",
+			"url": "/static/shop_logo.png",
 			"name": "蜜秘鸡地",
 			"status": "已完成",
 			"amount": 4,
@@ -575,7 +575,7 @@
 		{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "../../static/shop_logo.png",
+			"url": "/static/shop_logo.png",
 			"name": "蜜秘鸡地",
 			"status": "已完成",
 			"amount": 4,
@@ -602,7 +602,7 @@
 		{
 			"id": 1,
 			"orderid": 100000,
-			"imgurl": "../../static/shop_logo.png",
+			"url": "../../static/shop_logo.png",
 			"name": "蜜秘鸡地",
 			"status": "已完成",
 			"amount": 4,
@@ -644,6 +644,63 @@
 			"name": "某同学",
 			"tel": "18211112222",
 			"tel": "学校"
+		}
+	],
+	"qiShouOrderList": [
+		{
+			"text_name": "北京烤鸭(待取货为0)",
+			"product_image": "../../static/product_image.jpg",
+			"about_time": 50,
+			"kilometres": 1.1,
+			"position": "昆明理工大学",
+			"kilometress": 1.1,
+			"positions": "昆明理工大学",
+			"userss": "昆明理工大学",
+			"order_status":0
+		},
+		{
+			"text_name": "烤鸭(配送中为1)",
+			"product_image": "../../static/product_image.jpg",
+			"about_time": 50,
+			"kilometres": 1.1,
+			"position": "昆明理工大学",
+			"kilometress": 1.1,
+			"positions": "昆明理工大学",
+			"userss": "昆明理工大学",
+			"order_status":1
+		},
+		{
+			"text_name": "米线(抢任务为2)",
+			"product_image": "../../static/product_image.jpg",
+			"about_time": 50,
+			"kilometres": 1.1,
+			"position": "昆明理工大学",
+			"kilometress": 1.1,
+			"positions": "昆明理工大学",
+			"userss": "昆明理工大学",
+			"order_status":2
+		},
+		{
+			"text_name": "米线(异常为3)",
+			"product_image": "../../static/product_image.jpg",
+			"about_time": 50,
+			"kilometres": 1.1,
+			"position": "昆明理工大学",
+			"kilometress": 1.1,
+			"positions": "昆明理工大学",
+			"userss": "昆明理工大学",
+			"order_status":3
+		},
+		{
+			"text_name": "小锅米线(完成为4)",
+			"product_image": "../../static/product_image.jpg",
+			"about_time": 50,
+			"kilometres": 1.1,
+			"position": "昆明理工大学",
+			"kilometress": 1.1,
+			"positions": "昆明理工大学",
+			"userss": "昆明理工大学",
+			"order_status":3
 		}
 	]
 }
